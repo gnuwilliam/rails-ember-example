@@ -1,9 +1,9 @@
 <div class="story-container">
-  <h3>Editing story {{ title }}</h3>
+  <h3>Editing memory {{ title }}</h3>
 
   <form {{ action 'update' this on='submit' }}>
     {{#if isSaving }}
-      <p>Saving...</p>
+      <p><b>Saving...</b></p>
     {{/if}}
 
     <p>

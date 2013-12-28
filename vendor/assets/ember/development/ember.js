@@ -1,5 +1,5 @@
 // Fetched from channel: canary, with url http://builds.emberjs.com/canary/ember.js
-// Fetched on: 2013-12-28T03:28:51Z
+// Fetched on: 2013-12-28T03:35:49Z
 /*!
  * @overview  Ember - JavaScript Application Framework
  * @copyright Copyright 2011-2013 Tilde Inc. and contributors

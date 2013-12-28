@@ -16,6 +16,11 @@ class StoriesController < ApplicationController
     render json: Story.find(params[:id]).tap { |s| s.update_attributes(story) }
   end
 
+  def destroy
+    Story.find(params[:id]).destroy
+    head 204
+  end
+
   private
   def story
     params[:story].permit(:title, :body)

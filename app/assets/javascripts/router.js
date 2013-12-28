@@ -2,7 +2,9 @@
 
 RailsEmberExample.Router.map(function() {
   this.resource('stories', function () {
-    this.resource('story', { path: ':story_id' });
+    this.resource('story', { path: ':story_id' }, function () {
+      this.route('edit');
+    });
     this.route('new');
   });
 });

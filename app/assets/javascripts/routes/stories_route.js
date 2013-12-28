@@ -7,5 +7,11 @@ RailsEmberExample.StoriesRoute = Ember.Route.extend({
     return this.store.filter('story', function (story) {
       return !story.get('isNew');
     });
+  },
+
+  actions: {
+    "delete": function (story) {
+      story.destroyRecord();
+    }
   }
 });

@@ -1,17 +1,19 @@
-<h3>Editing story {{ title }}</h3>
+<div class="story-container">
+  <h3>Editing story {{ title }}</h3>
 
-<form {{ action 'update' this on='submit' }}>
-  {{#if isSaving }}
-    <p>Saving...</p>
-  {{/if}}
+  <form {{ action 'update' this on='submit' }}>
+    {{#if isSaving }}
+      <p>Saving...</p>
+    {{/if}}
 
-  <p>
-    {{ input type="text" value=title }}
-  </p>
+    <p>
+      {{ input type="text" value=title }}
+    </p>
 
-  <p>
-    {{ textarea value=body }}
-  </p>
+    <p>
+      {{ textarea value=body }}
+    </p>
 
-  <button>Update</button>
-</form>
+    <button>Update</button>
+  </form>
+</div>

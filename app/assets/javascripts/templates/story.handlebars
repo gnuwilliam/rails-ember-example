@@ -1,9 +1,11 @@
-<h2>{{ title }}</h2>
+<div class="story-container">
+  <h2>{{ title }}</h2>
 
-<div>
-  {{ body }}
+  <div>
+    {{ body }}
+  </div>
+
+  <p>{{#link-to 'story.edit'}}Edit this story{{/link-to}}</p>
+
+  {{ outlet }}
 </div>
-
-<p>{{#link-to 'story.edit'}}Edit this story{{/link-to}}</p>
-
-{{ outlet }}

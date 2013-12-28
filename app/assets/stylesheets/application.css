@@ -11,3 +11,83 @@
  *= require_self
  *= require_tree .
  */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #167C5B;
+}
+
+.container {
+  width: 960px;
+  position: relative;
+  margin: 0 auto;
+
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main {
+  background-color: #FFF;
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.main ul li:hover button {
+  visibility: visible;
+}
+
+.main ul li button {
+  border: none;
+  background-color: #FF6969;
+  color: #FFF;
+  padding: 2px;
+  box-sizing: border-box;
+  width: 18px;
+  margin-left: 8px;
+  visibility: hidden;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 46px;
+  margin: 0;
+  font-family: 'Codystar', cursive;
+  background-color: #167C5B;
+  color: #FFF;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 5px solid #0F5E44;
+}
+
+.memories-title {
+  border-bottom: 2px solid #167C5B;
+  font-family: 'Megrim', cursive;
+}
+
+.story-container {
+  border-top: 2px solid rgba(22, 124, 91, 0.04);
+}
+
+.story-container h2 {
+  margin-bottom: 5px;
+}
+
+.story-container div {
+  color: #888888;
+}
+
+footer {
+  text-align: right;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #FFF;
+  font-weight: 200;
+  text-decoration: none;
+}

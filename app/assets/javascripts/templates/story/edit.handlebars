@@ -1,5 +1,17 @@
-<h1>StoryEdit</h1>
+<h3>Editing story {{ title }}</h3>
 
-<p>Your content here.</p>
+<form {{ action 'update' this on='submit' }}>
+  {{#if isSaving }}
+    <p>Saving...</p>
+  {{/if}}
 
-{{outlet}}
+  <p>
+    {{ input type="text" value=title }}
+  </p>
+
+  <p>
+    {{ textarea value=body }}
+  </p>
+
+  <button>Update</button>
+</form>

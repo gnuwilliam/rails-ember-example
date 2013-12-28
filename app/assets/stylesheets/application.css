@@ -63,6 +63,7 @@ html, body {
   box-sizing: border-box;
   border-bottom: 5px solid #0F5E44;
   margin-top: -20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.47);
 }
 
 .memories-title {

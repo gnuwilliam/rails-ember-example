@@ -6,6 +6,7 @@
       {{#link-to 'story' this }}
         {{ title }}
       {{/link-to}}
+      <button {{ action 'delete' this }}>X</button>
     </li>
   {{/each}}
 </ul>

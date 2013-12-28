@@ -1,12 +1,16 @@
 <h3>Write a new story!</h3>
 
-<form>
+<form {{ action 'create' this on='submit' }}>
+  {{#if isSaving }}
+    <p>Saving...</p>
+  {{/if}}
+
   <p>
-    {{input type="text" value=title}}
+    {{ input type="text" value=title }}
   </p>
 
   <p>
-    {{textarea value=body}}
+    {{ textarea value=body }}
   </p>
 
   <button>Create</button>

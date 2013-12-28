@@ -3,9 +3,7 @@
 <ul>
   {{#each}}
     <li>
-      {{#link-to 'story' this }}
-        {{ title }}
-      {{/link-to}}
+      {{#link-to 'story' this }}{{ title }}{{/link-to}}
       <button {{ action 'delete' this }}>X</button>
     </li>
   {{/each}}

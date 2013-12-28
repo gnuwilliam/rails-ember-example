@@ -22,4 +22,6 @@
 // for more details see: http://emberjs.com/guides/application/
 RailsEmberExample = Ember.Application.create();
 
+RailsEmberExample.ApplicationAdapter = DS.RESTAdapter;
+
 //= require_tree .

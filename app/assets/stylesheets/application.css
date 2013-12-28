@@ -59,9 +59,10 @@ html, body {
   font-family: 'Codystar', cursive;
   background-color: #167C5B;
   color: #FFF;
-  padding: 10px;
+  padding: 20px 10px;
   box-sizing: border-box;
   border-bottom: 5px solid #0F5E44;
+  margin-top: -20px;
 }
 
 .memories-title {

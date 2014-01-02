@@ -23,3 +23,5 @@ There you go! Now you run the Rails server, and you should see a beautiful Ember
 ```
 rails s
 ```
+
+[Demo](http://randomaccessmemories.herokuapp.com/#/stories/)
